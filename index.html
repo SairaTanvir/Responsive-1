@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h3>Searching now....</h3>
+    </div>
+    <div class="hero-bg"> <!-- hero section is the name of the top portion of a web pag e-->
+        <section class="top">
+            <header>
+                <a href="#">sairatanvir.me</a>
+            </header>
+           <!-- <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav> -->
+            <h1><span>My name is</span> Saira Tanvir</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatibus labore ad atque ab quos? Fuga nihil nemo possimus soluta.</p>
+
+            <div class="form-container">
+                <form action="">
+                    <div class="form-left">
+                        <label for="city">Enter your city</label>
+                        <input type="text" name="city" id="city">
+                        <p>Example: "Rawalpindi"</p>
+                    </div>
+
+                    <input type="button" value="Find My Info" id="cta-btn">
+                </form>
+
+            </div>
+        </section>     
+    </div>
+    <section class="authentic">
+        <div class="right-col">
+            <h2>Authentic. awesome</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non recusandae illo, nostrum cupiditate facilis ab sint quibusdam nisi laborum ut.
+            </p>
+        </div>
+        <img src="../images/final.jpg" alt="">
+    </section>
+ <script>
+ let btn = document.getElementById('cta-btn');
+ let overlay = document.getElementById('overlay');
+    btn.addEventListener('click', () => {
+        overlay.style.display ='grid';
+    })
+ 
+ 
+ </script>
+</body>
+</html>
